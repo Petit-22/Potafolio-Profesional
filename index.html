@@ -56,5 +56,24 @@
             </div>
         </section>
 
+        <!--animaciones-->
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                const elementos=document.querySelectorALL('section[id^"trabajo"],#Presentacion,#contacto');
+                const observador=new IntersectionObserver((entradas)=>{
+                    entradas.forEach(entrada=>{
+                        if (entrada.isIntersecting){
+                            entrada.target.classList.add('visible');
+                        }
+                    });
+                },{
+                    threshold:0.1
+                });
+
+                elementos.forEach(elemento=>{
+                    observador.observe(elemento);
+                });
+            });
+        </script>
     </body>
 </html>
