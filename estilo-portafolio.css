@@ -5,14 +5,14 @@
 }
 
 :root{
---color-fondo: #f1f0cc;
---color-tarjeta: #14141f;
+--color-fondo: #eee0cb;
+--color-tarjeta: #f3d3b0;
 --color-texto: #f0f0f5;
---color-texto-claro: #c0b8c8;
---color-acento: #8b1a2b;
---color-acento-claro: #c41e3a;
+--color-texto-claro: #d1c7db;
+--color-acento: #e87385;
+--color-acento-claro: #f18e9e;
 --color-purpura: #722f37;
---color-borde: #2a1a20;
+--color-borde: #986276;
 --color-blanco: #ffffff;
 }
 
